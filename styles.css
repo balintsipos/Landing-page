@@ -16,6 +16,10 @@ a {
     color: white;
 }
 
+a:hover {
+    font-weight: 700;
+}
+
 .logo {
     display: flex;
     font-weight: 700;
@@ -29,8 +33,6 @@ a {
     justify-content: space-between;
     padding-top: 15px;
     padding-bottom: 15px;
-    padding-left: 20vw;
-    padding-right: 20vw;
 }
 
 .header-links {
@@ -40,11 +42,11 @@ a {
 
 .darkblue {
     background-color: #1F2937;
+    padding-left: 20vw;
+    padding-right: 20vw;
 }
 
 .hero {
-    padding-left: 20vw;
-    padding-right: 20vw;
     color: white;
     display: flex;
     padding-top: 50px;
@@ -102,8 +104,6 @@ a {
 
 .white{
     background-color:white;
-    padding-left: 20vw;
-    padding-right: 20vw;
 }
 
 #key-features-text {
@@ -134,4 +134,32 @@ a {
     margin-top: 30px;
     font-size: 20px;
     text-align: center;
+}
+
+.grey {
+    background-color: #E5E7EB;
+}
+
+.quote {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.main-quote {
+    font-size: 32px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.quotee{
+    margin-top: 5px;
+    font-size: 22px;
+    text-align: right;
+    font-weight: 700;
+    color: #1F2937
+}
+
+.darkblue, .grey, .white {
+    padding-left: 20vw;
+    padding-right: 20vw;
 }
