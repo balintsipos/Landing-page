@@ -99,3 +99,39 @@ a {
     border-radius: 8px;
     height: auto;
 }
+
+.white{
+    background-color:white;
+    padding-left: 20vw;
+    padding-right: 20vw;
+}
+
+#key-features-text {
+    margin: 0;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    font-size: 32px;
+    text-align: center;
+}
+
+.features-container {
+    padding-left: 0px;
+    padding-right: 0px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    gap: 10px;
+}
+
+.features-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 0px;
+}
+
+.feature-description {
+    margin-top: 30px;
+    font-size: 20px;
+    text-align: center;
+}
