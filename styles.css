@@ -108,19 +108,20 @@ a:hover {
 
 #key-features-text {
     margin: 0;
-    padding-top: 15px;
+    padding-top: 45px;
     padding-bottom: 20px;
     font-size: 32px;
     text-align: center;
 }
 
 .features-container {
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-left: 90px;
+    padding-right: 90px;
     display: flex;
     justify-content: space-between;
-    padding-bottom: 30px;
+    padding-bottom: 45px;
     gap: 10px;
+    flex-wrap: wrap;
 }
 
 .features-item{
@@ -141,8 +142,10 @@ a:hover {
 }
 
 .quote {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .main-quote {
@@ -157,6 +160,65 @@ a:hover {
     text-align: right;
     font-weight: 700;
     color: #1F2937
+}
+
+.cta-section {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 30px;
+    background-color: #3882F6;
+    border-radius: 15px;
+}
+
+.cta-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-basis: 400px;
+    flex-grow: 2;
+    flex-grow: 2;
+}
+
+.cta-right {
+    display: flex;
+    flex-basis: 200px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+#ctabold,
+#ctanormal{
+    color: white;
+}
+
+#ctabold {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+#ctanormal {
+    font-size: 22px;
+}
+
+#signup-btn-inverted {
+    color: #3882F6;;
+    background-color: white;
+    font-weight: 700;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    height: 80px;
+    font-size: 24px;
+}
+
+#signup-btn-inverted:hover {
+    color: white;
+    background-color: #3882F6;
+    border: 3px solid white;
 }
 
 .darkblue, .grey, .white {
