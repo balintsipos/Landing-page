@@ -1,7 +1,9 @@
 ul {
+    display: flex;
     list-style-type: none;
     margin: 0px;
     padding: 0px;
+    gap: 20px;
 }
 
 a {
@@ -11,7 +13,7 @@ a {
 
 .logo {
     display: flex;
-    font-weight: 700px;
+    font-weight: 700;
     font-size: 24px;
     color: white;
 }
@@ -19,6 +21,13 @@ a {
 .header {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     background-color: #1F2937;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 15px;
+}
 
+.header-links {
+    display: flex;
+    justify-content: space-between;
 }
