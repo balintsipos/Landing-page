@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 ul {
     display: flex;
     list-style-type: none;
@@ -22,12 +26,18 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #1F2937;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10vw;
+    padding-right: 10vw;
 }
 
 .header-links {
     display: flex;
     justify-content: space-between;
+}
+
+.darkblue {
+    background-color: #1F2937;
 }
